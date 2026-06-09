@@ -149,6 +149,11 @@ Execute `zeus build` to build the application installation package.
 
 ```sh
 zeus build
+
+// or
+
+zeus build --legacy-zpk-name
+(if you want meaningful names for the *.zpk files in the archive)
 ```
 
 After the build is complete, the application installation package is available in the project `dist/` directory.
